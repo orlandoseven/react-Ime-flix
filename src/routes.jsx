@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer";
 function RoutesApp() {
   return (
     <BrowserRouter>
-      {/* layout container to keep footer at bottom */}
+      {}
       <div className="layout">
         <Header />
         <div className="main">

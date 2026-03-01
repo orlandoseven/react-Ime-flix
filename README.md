@@ -1,16 +1,36 @@
-# React + Vite
+<!-- Badges -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![node](https://img.shields.io/badge/node-%3E%3D16-brightgreen)](https://nodejs.org/)
+[![vite](https://img.shields.io/badge/vite-%5E4.0-blue)](https://vitejs.dev/)
+[![license](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
-Currently, two official plugins are available:
+# projeto-primeflix
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Um pequeno projeto em React (Vite) criado como exercício do curso da Udemy. Serve para listar filmes, ver detalhes e marcar favoritos.
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Página inicial com lista de filmes
+- Página de detalhes do filme
+- Favoritos salvos localmente
+- Página de erro para rotas inválidas
 
-## Expanding the ESLint configuration
+## Requisitos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js 16+ (recomendado)
+- npm
+
+## Instalação
+
+1. Clone o repositório
+
+   git clone <URL_DO_REPOSITORIO>
+
+2. Instale dependências
+
+   npm install
+
+## Observações
+
+- O projeto usa `react-router-dom` para roteamento.
+- Favoritos são mantidos localmente (`localStorage`).

@@ -2,12 +2,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh; /* ensure whole screen occupied so footer can sit at bottom */
+  min-height: 100vh; 
   background-color: #0e2148;
   align-items: center;
 }
 
-/* layout wrappers used in routes.jsx */
 .layout {
   display: flex;
   flex-direction: column;
@@ -16,7 +15,7 @@
 }
 
 .main {
-  flex: 1; /* grow to fill space between header and footer */
+  flex: 1; 
   display: flex;
   flex-direction: column;
 }
