@@ -1,0 +1,53 @@
+.filmes-favoritos{
+    width: 100%;
+    padding: 15px;
+    color: #E3D095;
+    margin: 24px auto;
+    min-height: 70vh;
+}
+.filmes-favoritos h1{
+    margin-bottom: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.filmes-favoritos span{
+    font-size: 18px;
+}
+
+.filmes-favoritos ul{
+    width: 720px;
+}
+.filmes-favoritos ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.filmes-favoritos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filmes-favoritos div a{
+    text-decoration: none;
+    color:#E3D095;
+    margin-right: 24px;
+}
+.filmes-favoritos button{
+    padding: 3px 20px;
+    background-color: rgb(219, 21, 21);
+    color:#0E2148;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.span-semFilme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}

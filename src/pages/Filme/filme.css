@@ -1,0 +1,49 @@
+.filme-detalhe{
+    
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 25px auto;
+    color: #E3D095;
+}
+.filme-detalhe h1{
+margin-bottom: 12px;
+color: #E3D095;
+}
+
+.filme-detalhe img{
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.area-buttons{
+    display: flex;
+    gap:30px;
+    margin-top: 14px;
+
+}
+.area-buttons button{
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #0E2148;
+    background-color: #E3D095;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.area-buttons button a{
+    text-decoration: none;
+    color: #0E2148;
+    transition: all 0.5s;
+}
+.area-buttons button:hover{
+    color: #E3D095;
+    background-color: #483AA0;
+}
+.area-buttons button a:hover{
+    color: #E3D095;
+}

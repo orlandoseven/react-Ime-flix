@@ -1,0 +1,22 @@
+.erro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  color: rgb(174, 16, 16);
+  gap: 10px;
+  width: 100%;
+  
+}
+
+h2 {
+  color: #fff;
+}
+.erro a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.erro a:hover {
+  color: #7965c1;
+}

@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh; /* ensure whole screen occupied so footer can sit at bottom */
+  background-color: #0e2148;
+  align-items: center;
+}
+
+/* layout wrappers used in routes.jsx */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main {
+  flex: 1; /* grow to fill space between header and footer */
+  display: flex;
+  flex-direction: column;
+}
