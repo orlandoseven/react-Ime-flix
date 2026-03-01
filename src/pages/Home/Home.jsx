@@ -6,12 +6,16 @@ import "./home.css";
 function Home() {
   const [filmes, setFilmes] = useState([]);
   const [loading, setLoading] = useState(true);
+  const apiKey = import.meta.env.VITE_API_KEY;
+
+   
 
   useEffect(() => {
     async function loadFilmes() {
+      
       const response = await api.get("movie/now_playing", {
         params: {
-          api_key: "95e3ca8fcbda1be5519be4a7f9acb283",
+          api_key: apiKey,
           language: "pt-BR",
           page: 1,
         },
@@ -21,15 +25,14 @@ function Home() {
       setLoading(false);
     }
     loadFilmes();
-    
-  }, []);
+  }, [apiKey]);
 
-  if(loading){
-    return(
-        <div className="loading">
-            <h2>Carregando filmes...</h2>
-            </div>
-    )
+  if (loading) {
+    return (
+      <div className="loading">
+        <h2>Carregando filmes...</h2>
+      </div>
+    );
   }
   return (
     <div className="container">
@@ -37,7 +40,6 @@ function Home() {
         return (
           <div className="lista-filmes">
             <article className="detalhes-filme" key={filme.id}>
-
               <img
                 src={`https://image.tmdb.org/t/p/w500/${filme.poster_path}`}
                 alt={filme.title}

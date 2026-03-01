@@ -24,7 +24,7 @@ Um pequeno projeto em React (Vite) criado como exercício do curso da Udemy. Ser
 
 1. Clone o repositório
 
-   git clone <URL_DO_REPOSITORIO>
+   git clone <https://github.com/orlandoseven/react-Ime-flix>
 
 2. Instale dependências
 
